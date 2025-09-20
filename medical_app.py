@@ -4,7 +4,7 @@ st.set_page_config(page_title="Medical Prediction App", page_icon="🏥")
 
 # -----------------------------
 # App Title
-st.title("Akshara medical application")
+st.title("Akshara bava medical application")
 # -----------------------------
 st.write("Enter your health details below to check risk level and get suggestions.")
 
@@ -77,4 +77,5 @@ if st.button("🔍 Predict Risk"):
         st.write("👉 Suggestion: Please consult a doctor for a detailed checkup. Adopt immediate lifestyle changes.")
 
     st.info(f"Your calculated risk score: **{risk_score}**")
+
 
